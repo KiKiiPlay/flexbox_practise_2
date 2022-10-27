@@ -111,6 +111,8 @@ h1 {
 #welcome_text {
   max-width: 566px;
   font-size: 25px;
+  font-weight: 100;
+  line-height: 40px;
 }
 
 .buttons {
