@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+#main_container {
+  width: 100%;
+}
+
+header {
+  height: 65px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  padding-left: 25px;
+  flex-grow: 1;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.bi-emoji-sunglasses {
+  color: #7153fa;
+  padding: 10px;
+}
+
+.notification {
+  background-color: lightgrey;
+}
+
+.bi-bell {
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  height: 20px;
+  width: 20px;
+}
+
+.new_notification {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(141, 0, 172);
+  position: absolute;
+  left: 35px;
+  top: 0px;
+}
+
+.profile {
+  background-image: url(../assets/avatar-2.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  object-fit: contain;
+  margin-inline: 10px;
+}
+
+.profile,
+.notification {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.container_of_notifications {
+  display: flex;
+  flex-grow: 50;
+  justify-content: flex-end;
+}
+
+.welcome_container {
+  width: 100%;
+  background-color: #7153fa;
+}
+
+.welcome_img {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+  height: 450px;
+  position: relative;
+}
+
+#hero_img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+h1,
+#welcome_text {
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+#welcome_text {
+  max-width: 566px;
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+}
+
+.courses_button,
+.instructor_button {
+  width: 250px;
+  height: 60px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.courses_button > p,
+.instructor_button > p {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+}
+
+.courses_button {
+  background-color: lightgreen;
+}
+
+.instructor_button {
+  margin-left: 20px;
+  background-color: white;
+}
+
+.add_info {
+  width: 75%;
+  margin-inline: auto;
+  height: 100px;
+  display: flex;
+}
+
+.first_window,
+.second_window,
+.third_window {
+  flex-grow: 1;
+  position: relative;
+}
+
+.first_text,
+.second_text,
+.third_text {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 25px;
+}
+
+.first_icon,
+.second_icon,
+.third_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer {
+  background-color: lightgrey;
+  width: 100%;
+  height: 385px;
+}
