@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap");
 
+html,
 body {
   margin: 0;
   box-sizing: border-box;
@@ -82,28 +83,31 @@ nav {
   height: 420px;
   background-color: #7153fa;
   display: flex;
+  justify-content: space-around;
 }
 
 .text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .text > h1 {
   color: white;
+  margin-top: 0;
+  font-size: 50px;
 }
 
 .text > p {
   color: white;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 25px;
   opacity: 0.5;
   font-weight: 100;
   margin: 0;
 }
 
 .text .buttons {
-  flex-grow: 9;
   margin-top: 30px;
 }
 
@@ -124,6 +128,10 @@ nav {
 .text .buttons > button:nth-child(2) {
   background-color: white;
   width: 200px;
+}
+
+#big_picture {
+  display: block;
 }
 /* #hero_img {
   position: absolute;
@@ -175,7 +183,7 @@ h1 {
 .instructor_button {
   margin-left: 20px;
   background-color: white;
-}
+}*/
 
 .add_info {
   width: 75%;
@@ -183,4 +191,27 @@ h1 {
   height: 100px;
   display: flex;
   background-color: red;
-} */
+  justify-content: space-around;
+}
+
+.some_info {
+  height: 100%;
+  width: 35%;
+  background-color: #7153fa;
+  display: flex;
+}
+
+.img_info {
+  width: 25%;
+  height: 95%;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 7px;
+}
+
+.info-text {
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin-top: 30px;
+}
